@@ -62,16 +62,16 @@ export default function Searchbar() {
   return (
     <ThemeProvider theme={theme}>
     <Box sx={{bgcolor:'#fff' , width:'100%' , height:'3.6rem',
-       boxShadow: 1 ,display:'flex' , gap:{ xs:'1%',sm:'5%',md:'20%',lg:'33%',xl:'33%'}}} >
+       boxShadow: 1 ,display:'flex' , gap:{ xs:'1%',sm:'10%',md:'20%',lg:'20%',xl:'30%'}}} >
       
-        <Box sx={{width:'2rem' ,height:'3rem',  display: { xs:"block",sm: "none", md: "block" }}}>
+        <Box sx={{width:'2rem' ,height:'3rem',  display: { xs:"block",sm: "block", md: "block" }}}>
           
         </Box>
         {/* searchbar */}
         <Box sx={{bgcolor:'#F9F9F9',width:{ xs:'16rem',sm:'16rem',md:'17rem',lg:'23rem',xl:'23rem'},height:'2.1rem' ,
-       ml:{xs:'15%' , sm:'15%',md:'0%'} ,pt:'0.25rem',borderRadius:'0.4rem',mt:'0.6rem',display:'flex' ,
+       ml:{xs:'15%' , sm:'15%',md:'10%' , lg:'5%' , xl:'2%'} ,pt:'0.25rem',borderRadius:'0.4rem',mt:'0.6rem',display:'flex' ,
       
-        gap:{ xs:'10%',sm:'10%',md:'15%',lg:'20%',xl:'32%'} }} >
+        gap:{ xs:'10%',sm:'10%',md:'15%',lg:'35%',xl:'32%'} }} >
           <Box sx={{  height:'1.5rem' ,  width:'11rem'}}>
         <input type="text" placeholder="Search.." width={10} height={20}
           style={{ backgroundColor: "#F9F9F9",border: "none",
@@ -82,8 +82,8 @@ export default function Searchbar() {
             </Box>
         </Box> 
         {/* logOut button   */}
-        <Box sx={{pb:'0.4rem' , mt:{ xs: "0.8rem", md: "0rem" } , ml:{ xs: "10%", md: "0%" }}}>
-        <Button  startIcon={<Image src={'/log-out.svg'}
+        <Box sx={{pb:'0.4rem',display:'flex' ,mr:'2rem', mt:{ xs: "0.8rem", md: "0rem" } , ml:{ xs: "10%", md: "0%",lg:'5%',xl:'2%' }}}>
+        <Button sx={{mr:'0rem' ,ml:'auto' }} startIcon={<Image src={'/log-out.svg'}
          alt="log-out"  width={24} height={24} />}>
            <Typography variant="myVariant7" sx={{ display: { xs: "none", md: "block" } }}>Log Out</Typography>
          </Button>

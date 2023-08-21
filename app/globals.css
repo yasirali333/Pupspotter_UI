@@ -38,8 +38,73 @@
      gap:'33%';
     }
   }
-  @media screen and (min-width: 600px) {
+  @media screen and (max-width: 900px) {
     .searchBar{
-      gap: '2%';
+      gap: '5%';
+     
   }
   }
+
+  @media screen and (max-width: 1200px) {
+  .counting-t{
+   font-size: 0.8rem;
+    line-height: 1.5rem; 
+    letter-spacing: 0.09rem;
+    
+    
+  }
+}
+@media screen and (max-width: 900px) {
+  .counting-t{
+    
+    display: none;
+}
+}
+
+@media screen and (max-width: 1200px) {
+  .counting{
+    font-size: 1.5rem;
+    line-height: 1.5rem; 
+    letter-spacing: 0.01rem;
+}
+}
+@media screen and (max-width: 900px) {
+.counting{
+  font-size: 1rem;
+  line-height: 3rem; 
+  letter-spacing: 0.09rem;
+ 
+}
+}
+
+@media screen and (max-width: 1200px) {
+  .count-text-box{
+   margin-top: 37%;
+}
+}
+@media screen and (max-width: 900px) {
+.count-text-box{
+  margin-top: 60%;
+  margin-left: -25%;
+ 
+}
+}
+
+@media screen and (max-width: 900px) {
+  .count-logo{
+   margin-left: 20%;
+}
+}
+
+
+@media screen and (max-width: 1050px) {
+  .th{
+   font-size: small;
+   margin-left: 1rem;
+}
+}
+
+.email-header{
+  text-align: right;
+  padding-right: 40px;
+}

@@ -62,7 +62,7 @@ export default function SideBar({selectedIndex}:any) {
   
   return (
     <ThemeProvider theme={theme}>
-    <Box sx={{width:'15rem' , height:'58rem' , bgcolor:'#064AAC'}}>
+    <Box sx={{width:'15rem' ,height:'auto' , bgcolor:'#064AAC'}}>
       {/* logo */}
       <Box sx={{width:'3.75rem' , height:'3.75rem',top:' 20%',left:'5%',
       pl:'5rem', pt:'2rem'}}>

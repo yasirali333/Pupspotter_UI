@@ -62,8 +62,8 @@ export default function Tiles(props:any) {
   return (
     <ThemeProvider theme={theme}>
      {/* title */}
-     <Box sx={{bgcolor:'#064AAC' , width:'86%',height:'7.65rem',borderRadius:'0.37rem',
-    ml:'7%',mt:'5%' }}>
+     <Box sx={{bgcolor:'#064AAC' , width:'90%',height:'7.65rem',borderRadius:'0.37rem',
+    ml:'5%',mt:'5%' }}>
     <Box sx={{  width:'92%',height:'95%' ,
      display:'flex' ,ml:'5%',}}>
       <Box sx={{pt:'3rem'}}>
