@@ -151,7 +151,7 @@ export default function Index() {
           </Box>
           <Box>
           <Typography>State</Typography>
-          {/* <Typography>Taxas</Typography> */}
+          <Typography>Taxas</Typography>
           </Box>
         </Box>
         <Box sx={{bgcolor:'lightblue',height:'9rem',width:'60%',mt:'9rem'}}>
