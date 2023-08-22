@@ -21,28 +21,7 @@ const theme = createTheme({
       fontWeight: "400",
       lineHeight: '1rem',
     },
-    myVariant17: {
-      color: "#505050",
-      fontSize: "1rem",
-      fontFamily: 'Sans-Serif',
-      font:'Sofia Pro',
-      fontStyle: "normal",
-      fontWeight: "400",
-      marginTop:'1rem',
-      lineHeight: '1.7rem',
-    },
-
-    myVariant18: {
-      color: "#064AAC",
-      fontSize: "0.9rem",
-      fontFamily: "Sans-Serif",
-      font:'Roboto',
-      fontStyle: "normal",
-      fontWeight: "400",
-      lineHeight: '1rem',
-   
-
-    },
+ 
     myVariant4: {
       
       fontSize: "0.7rem",
